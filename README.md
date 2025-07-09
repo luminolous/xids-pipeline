@@ -44,8 +44,6 @@ The X-IDS system operates as a multi-stage decision pipeline with built-in logic
 
 Used to filter suspicious traffic before classification.
 
----
-
 ### 2. LightGBM Binary Classifier
 
 - **Input**: Normalized features
@@ -54,8 +52,6 @@ Used to filter suspicious traffic before classification.
 
 Efficient detection of attack presence post-anomaly filtering.
 
----
-
 ### 3. LightGBM Multiclass Classifier
 
 - **Input**: Same feature space
@@ -63,8 +59,6 @@ Efficient detection of attack presence post-anomaly filtering.
 - **Metric**: Classification report
 
 Enables fine-grained attack categorization.
-
----
 
 ### 4. T5-small Generative Explanation
 
