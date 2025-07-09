@@ -1,0 +1,10 @@
+pandas==2.2.2
+numpy==2.0.2
+torch==2.6.0+cu124
+scikit-learn==1.6.1
+transformers==4.53.0
+datasets==2.14.4
+lightgbm==4.5.0
+optuna==4.4.0
+joblib==1.5.1
+matplotlib==3.10.0
