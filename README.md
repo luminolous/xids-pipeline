@@ -33,7 +33,7 @@ The X-IDS system operates as a multi-stage decision pipeline with built-in logic
 
 ---
 
-## Model Descriptions & Results
+## Model Descriptions
 
 ### 1. Autoencoder (PyTorch)
 
