@@ -56,8 +56,8 @@ The X-IDS system operates as a multi-stage decision pipeline with built-in logic
 
 ### 4. T5-small Generative Explanation
 
-- **Input Format**: Scaled features joined as text (e.g., `"Fitur: 0.15:-0.34:1.12:..."`)
-- **Target**: Textual explanation (e.g., `"This is a reconnaissance attack...."`)
+- **Input Format**: Scaled features joined as text
+- **Target**: Textual explanation
 - **Training**: Hugging Face Trainer
 
 ---
