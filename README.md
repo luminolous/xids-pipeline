@@ -42,15 +42,11 @@ The X-IDS system operates as a multi-stage decision pipeline with built-in logic
 - **Thresholding**: Based on reconstruction error
 - **Metric**: Recall and Confusion Matrix
 
-Used to filter suspicious traffic before classification.
-
 ### 2. LightGBM Binary Classifier
 
 - **Input**: Normalized features
 - **Target**: Binary `label` (0 = normal, 1 = attack)
 - **Metric**: ROC-AUC, Recall, F1-Score
-
-Efficient detection of attack presence post-anomaly filtering.
 
 ### 3. LightGBM Multiclass Classifier
 
@@ -58,15 +54,11 @@ Efficient detection of attack presence post-anomaly filtering.
 - **Target**: `attack_cat` with 9 classes
 - **Metric**: Classification report
 
-Enables fine-grained attack categorization.
-
 ### 4. T5-small Generative Explanation
 
 - **Input Format**: Scaled features joined as text (e.g., `"Fitur: 0.15:-0.34:1.12:..."`)
 - **Target**: Textual explanation (e.g., `"This is a reconnaissance attack...."`)
 - **Training**: Hugging Face Trainer
-
-Adds transparency by explaining IDS decisions in plain language.
 
 ---
 
