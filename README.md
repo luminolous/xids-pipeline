@@ -48,7 +48,7 @@ Used to filter suspicious traffic before classification.
 
 ---
 
-### ⚖2. LightGBM Binary Classifier
+### 2. LightGBM Binary Classifier
 
 - **Input**: Normalized features
 - **Target**: Binary `label` (0 = normal, 1 = attack)
@@ -68,7 +68,7 @@ Enables fine-grained attack categorization.
 
 ---
 
-### 🗣4. T5-small Generative Explanation
+### 4. T5-small Generative Explanation
 
 - **Input Format**: Scaled features joined as text (e.g., `"Fitur: 0.15:-0.34:1.12:..."`)
 - **Target**: Textual explanation (e.g., `"This is a reconnaissance attack...."`)
