@@ -1,5 +1,6 @@
 > **Note:**
-> If this notebook appears invalid or fails to render properly on GitHub due to widget metadata issues, you can open it via Google Colab for full compatibility:
+> Due to output rendering limitations on GitHub, some notebook cells (especially those involving dynamic outputs or widgets) may not display properly.
+> To view the full outputs and run the notebook interactively, please open it in Google Colab:
 > [explained-model.ipynb](https://colab.research.google.com/drive/12F-tvR6c8qm58_gMmKTi8QgnyknomM5t?usp=sharing)
 > [biner-and-multiclass-classification.ipynb](https://colab.research.google.com/drive/1ASxKgCLiBljSqaQiz8AuI7kZc1rT-H31?usp=sharing)
 
