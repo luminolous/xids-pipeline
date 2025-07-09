@@ -1,3 +1,8 @@
+> **Note:**
+> If this notebook appears invalid or fails to render properly on GitHub due to widget metadata issues, you can open it via Google Colab for full compatibility:
+> [Open in Colab](https://colab.research.google.com/github/fayazi/X-IDS/blob/main/xids_pipeline.ipynb)
+> [Open in Colab](https://colab.research.google.com/github/fayazi/X-IDS/blob/main/xids_pipeline.ipynb)
+
 # X-IDS: Explainable Intrusion Detection System
 
 **X-IDS** is an explainable intrusion detection system that demonstrates how to build multi-stage cyber threat detection with human-readable outputs. This release focuses on data preprocessing and model training, serving as a foundation for future real-time deployment. The system integrates the strengths of **autoencoder-based anomaly detection**, **gradient boosting classification**, and **T5-small text generation** to deliver both accurate attack detection and transparent, natural language explanations.
