@@ -65,8 +65,7 @@ The X-IDS system operates as a multi-stage decision pipeline with built-in logic
 ## Dataset
 
 - **Data Source**: [UNSW-NB15 on Kaggle](https://www.kaggle.com/datasets/mrwellsdavid/unsw-nb15)
-- **Processed Dataset**:  
-  [`luminolous/xids-dataset`](https://huggingface.co/datasets/luminolous/xids-dataset)
+- **Processed Dataset**: [`luminolous/xids-dataset`](https://huggingface.co/datasets/luminolous/xids-dataset)
 
 ---
 
