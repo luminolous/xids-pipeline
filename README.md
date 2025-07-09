@@ -1,7 +1,7 @@
 > **Note:**
 > If this notebook appears invalid or fails to render properly on GitHub due to widget metadata issues, you can open it via Google Colab for full compatibility:
-> [Open in Colab](https://colab.research.google.com/github/fayazi/X-IDS/blob/main/xids_pipeline.ipynb)
-> [Open in Colab](https://colab.research.google.com/github/fayazi/X-IDS/blob/main/xids_pipeline.ipynb)
+> [explained-model.ipynb](https://colab.research.google.com/drive/12F-tvR6c8qm58_gMmKTi8QgnyknomM5t?usp=sharing)
+> [biner-and-multiclass-classification.ipynb](https://colab.research.google.com/drive/1ASxKgCLiBljSqaQiz8AuI7kZc1rT-H31?usp=sharing)
 
 # X-IDS: Explainable Intrusion Detection System
 
