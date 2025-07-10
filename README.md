@@ -128,6 +128,12 @@ weighted avg       0.92      0.86      0.88     19529
 - **Target**: Textual explanation
 - **Training**: Hugging Face Trainer
 
+**Word Cloud:**
+<p align="center">
+  <img src="assets/WhatsApp Image 2025-07-10 at 12.49.51_fc4efa6b.jpg" alt="Normal" width="45%"/>
+  <img src="assets/WhatsApp Image 2025-07-10 at 12.50.00_538abcea.jpg" alt="Attack" width="45%"/>
+</p>
+
 ---
 
 ## Installation
