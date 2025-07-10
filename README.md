@@ -74,6 +74,7 @@ Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 
 > **Note for torch version:**  
 > The `requirements.txt` file specifies `torch==2.6.0`, which may install a CPU-only version or a default CUDA build from PyPI.  
