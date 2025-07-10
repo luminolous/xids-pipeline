@@ -108,7 +108,7 @@ macro avg      0.91      0.89      0.90    200112
 weighted avg   0.91      0.89      0.90    200112
 ```
 
-**Evaluasi Testing**:
+**Testing Evaluation**:
 ```
           precision    recall  f1-score   support
 
