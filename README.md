@@ -50,17 +50,80 @@ The X-IDS system operates as a multi-stage decision pipeline with built-in logic
 - **Thresholding**: Based on reconstruction error
 - **Metric**: Recall and Confusion Matrix
 
+**Recall (Positive Class / Anomaly)**: `1.0000`
+
+> A perfect recall means **all positive (anomalous) instances were correctly identified**, which is crucial in domains like anomaly detection, fraud prevention, or medical diagnosis.
+
+**Confusion Matrix:**
+
+           Predicted
+         |  0   |   1
+     ------------------
+Actual 0 | 93803 | 4900
+      1 |      0 | 4882
+
+- **True Negatives (TN)**: 93,803  
+- **False Positives (FP)**: 4,900  
+- **False Negatives (FN)**: 0  
+- **True Positives (TP)**: 4,882  
+
+> The model **did not miss any anomaly** (Recall = 1.0).
+> It had **4,900 false positives**, which can be acceptable depending on the application.
+
 ### 2. LightGBM Binary Classifier
 
 - **Input**: Normalized features
 - **Target**: Binary `label` (0 = normal, 1 = attack)
 - **Metric**: ROC-AUC, Recall, F1-Score
 
+| Metric     | Training | Testing |
+|------------|----------|--------|
+| **F1-score** | 0.9902 | 0.9300 |
+| **Recall**   | 1.0000 | 0.9647 |
+| **ROC-AUC**  | 1.0000 | 0.9994 |
+
 ### 3. LightGBM Multiclass Classifier
 
 - **Input**: Same feature space
 - **Target**: `attack_cat` with 9 classes
 - **Metric**: Classification report
+
+Evaluasi Training:
+
+          precision    recall  f1-score   support
+
+       0       0.70      0.69      0.69     25014
+       1       0.63      0.84      0.72     25014
+       2       0.97      0.91      0.94     25014
+       3       1.00      0.99      0.99     25014
+       4       0.99      0.97      0.98     25014
+       5       0.99      0.92      0.95     25014
+       6       1.00      0.98      0.99     25014
+       7       1.00      1.00      1.00     25014
+       8       1.00      1.00      1.00     25014
+
+accuracy                           0.89    200112
+macro avg      0.91      0.89      0.90    200112
+weighted avg   0.91      0.89      0.90    200112
+
+
+Evaluasi Testing:
+
+          precision    recall  f1-score   support
+
+       0       0.70      0.69      0.69     25014
+       1       0.63      0.84      0.72     25014
+       2       0.97      0.91      0.94     25014
+       3       1.00      0.99      0.99     25014
+       4       0.99      0.97      0.98     25014
+       5       0.99      0.92      0.95     25014
+       6       1.00      0.98      0.99     25014
+       7       1.00      1.00      1.00     25014
+       8       1.00      1.00      1.00     25014
+
+accuracy                           0.89    200112
+macro avg      0.91      0.89      0.90    200112
+weighted avg   0.91      0.89      0.90    200112
 
 ### 4. T5-small Generative Explanation
 
