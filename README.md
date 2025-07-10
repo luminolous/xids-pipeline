@@ -6,7 +6,7 @@
 
 # X-IDS: Explainable Intrusion Detection System
 
-**X-IDS** is an explainable intrusion detection system that demonstrates how to build multi-stage cyber threat detection with human-readable outputs. This release focuses on data preprocessing and model training, serving as a foundation for future real-time deployment. The system integrates the strengths of **autoencoder-based anomaly detection**, **gradient boosting classification**, and **T5-small text generation** to deliver both accurate attack detection and transparent, natural language explanations.
+**X-IDS** is an explainable intrusion detection system that detects cyber threats through multi-stage detection with human-readable output. This release focuses on data preprocessing and model training, serving as a foundation for future real-time deployment. The system integrates the strengths of **autoencoder-based anomaly detection**, **gradient boosting classification**, and **T5-small text generation** to deliver both accurate attack detection and transparent, natural language explanations.
 
 ---
 
