@@ -55,15 +55,12 @@ The X-IDS system operates as a multi-stage decision pipeline with built-in logic
 > A perfect recall means **all positive (anomalous) instances were correctly identified**, which is crucial in domains like anomaly detection, fraud prevention, or medical diagnosis.
 
 **Confusion Matrix:**
-```
-           Predicted
-         |   0   |   1
-     ------------------
-Actual 0 | 93803 | 4900
-Actual 1 |     0 | 4882
-```
+|          |   0   |   1  |
+|----------|-------|------|
+| Actual 0 | 93083 | 4900 |
+| Actual 1 |     0 | 4882 |
 
-- **True Negatives (TN)**: 93,803  
+- **True Negatives (TN)**: 93,083  
 - **False Positives (FP)**: 4,900  
 - **False Negatives (FN)**: 0  
 - **True Positives (TP)**: 4,882  
