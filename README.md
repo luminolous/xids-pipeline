@@ -55,12 +55,13 @@ The X-IDS system operates as a multi-stage decision pipeline with built-in logic
 > A perfect recall means **all positive (anomalous) instances were correctly identified**, which is crucial in domains like anomaly detection, fraud prevention, or medical diagnosis.
 
 **Confusion Matrix:**
-
+```
            Predicted
          |  0   |   1
      ------------------
 Actual 0 | 93803 | 4900
       1 |      0 | 4882
+```
 
 - **True Negatives (TN)**: 93,803  
 - **False Positives (FP)**: 4,900  
@@ -88,8 +89,8 @@ Actual 0 | 93803 | 4900
 - **Target**: `attack_cat` with 9 classes
 - **Metric**: Classification report
 
-Evaluasi Training:
-
+**Training Evaluation**:
+```
           precision    recall  f1-score   support
 
        0       0.70      0.69      0.69     25014
@@ -105,10 +106,10 @@ Evaluasi Training:
 accuracy                           0.89    200112
 macro avg      0.91      0.89      0.90    200112
 weighted avg   0.91      0.89      0.90    200112
+```
 
-
-Evaluasi Testing:
-
+**Evaluasi Testing**:
+```
           precision    recall  f1-score   support
 
        0       0.70      0.69      0.69     25014
@@ -124,6 +125,7 @@ Evaluasi Testing:
 accuracy                           0.89    200112
 macro avg      0.91      0.89      0.90    200112
 weighted avg   0.91      0.89      0.90    200112
+```
 
 ### 4. T5-small Generative Explanation
 
