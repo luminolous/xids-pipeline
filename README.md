@@ -57,10 +57,10 @@ The X-IDS system operates as a multi-stage decision pipeline with built-in logic
 **Confusion Matrix:**
 ```
            Predicted
-         |  0   |   1
+         |   0   |   1
      ------------------
 Actual 0 | 93803 | 4900
-      1 |      0 | 4882
+Actual 1 |     0 | 4882
 ```
 
 - **True Negatives (TN)**: 93,803  
