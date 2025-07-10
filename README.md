@@ -79,13 +79,17 @@ pip install -r requirements.txt
 > **Note for torch version:**  
 > The `requirements.txt` file specifies `torch==2.6.0`, which may install a CPU-only version or a default CUDA build from PyPI.  
 >  
-> It's recommended to install PyTorch with `cu124` version manually:  
+> Since the `explained_model.ipynb` relies on GPU acceleration for efficient training,  
+> it's recommended to install PyTorch with the `cu124` version manually: 
 >  
 > ```bash
 > pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
 > ```  
 >  
 > This ensures full compatibility with your CUDA environment and enables GPU acceleration.
+
+> **Note:**
+> The `explained_model.ipynb` has been tested on an **A100** GPU.
 
 ---
 
