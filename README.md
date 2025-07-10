@@ -100,5 +100,5 @@ pip install -r requirements.txt
 
 ## Models
 
-You can directly load the models via Hugging Face:
+For the models, you can check them on Hugging Face:
 [`luminolous/xids-multimodel`](https://huggingface.co/luminolous/xids-multimodel)
