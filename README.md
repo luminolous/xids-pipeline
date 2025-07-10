@@ -14,6 +14,8 @@
 
 The X-IDS system operates as a multi-stage decision pipeline with built-in logic to route traffic data through appropriate models. Each stage serves a distinct purpose and makes branching decisions based on the outcome of the previous model.
 
+![System Process](asset/Network%20Feature.jpg)
+
 ### Step-by-Step Decision Flow:
 
 1. **Anomaly Detection (Autoencoder - Step 1)**  
