@@ -86,10 +86,8 @@ pip install -r requirements.txt
 > pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
 > ```  
 >  
-> This ensures full compatibility with your CUDA environment and enables GPU acceleration.
-
-> **Note:**
-> The `explained_model.ipynb` has been tested on an **A100** GPU.
+> This ensures full compatibility with your CUDA environment and enables GPU acceleration,  
+> as `explained_model.ipynb` was executed on an A100 GPU.
 
 ---
 
